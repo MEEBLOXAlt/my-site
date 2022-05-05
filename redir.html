@@ -4,12 +4,12 @@
     <title>Cat v1</title>
     <script>
     function getInputFromTextBox() {
-    var url = document.getElementById("rd").value;
+    var input = document.getElementById("rd").value;
 }
     </script>
   </head>
   <body>
-    <form id="form" onsubmit="window.location.href = url">
-    <input id="rd" placeholder="URL" type="text" onclick="getInputFromTextBox()"> <input id="btn" type="submit" onclick="window.location.href = url">
+    <form id="form" onsubmit="window.location.href = input">
+    <input id="rd" placeholder="URL" type="text" onclick="getInputFromTextBox()"> <input id="btn" type="submit" onclick="window.location.href = input">
   </body>
 </html>
