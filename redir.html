@@ -1,15 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Cat v1</title>
-    <script>
-    function getInputFromTextBox() {
-    var input = document.getElementById("rd").value;
-}
-    </script>
+    <title> RedirCat </title>
   </head>
-  <body>
-    <form id="form" onsubmit="window.location.href=input">
-    <input id="rd" placeholder="URL" type="text" onclick="getInputFromTextBox()"> <input id="btn" type="submit" onclick="window.location.href=input">
-  </body>
-</html>
+  <script>
+    var where = prompt("Which URL to visit?");
+    window.location.replace(where);
+  </script>
