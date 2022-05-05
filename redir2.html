@@ -2,6 +2,9 @@
 <html>
   <head>
     <title> RC2 </title>
+    <script>
+    var where = document.getElementById("inp1").value
+  </script>
   </head>
   <body>
     <form id="frm1" onsubmit="window.location.replace = where">
@@ -11,5 +14,6 @@
   </body>
   <script>
     var where = document.getElementById("inp1").value
+    window.location.replace(where)
   </script>
 </html>
